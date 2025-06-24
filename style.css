@@ -1,0 +1,58 @@
+body {
+  background: url("https://img.freepik.com/premium-vector/calculator-pencils-background_188544-6127.jpg");
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.calculator {
+  background: #eea245;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px #cbd5e0;
+  width: 280px;
+}
+
+#display {
+  background: #222;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bolder;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  padding: 20px;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  border: none;
+  border-radius: 8px;
+  background: #e2e8f0;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #5e48db9a;
+}
+
+.c {
+  grid-column: span 2;
+}
+
+.zero {
+  grid-column: span 2;
+}
